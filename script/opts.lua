@@ -24,8 +24,8 @@ function M.parse(arg)
 
 
 	---------------- Data loading options ---------------
-	cmd:option('-data_root_train', '/home/ubuntu/Users/namshik/VE/references/progressive-growing-torch/data/celebA')
-s', 8, '# of workers to use for data loading.')
+	cmd:option('-data_root_train', '/home/ubuntu/Users/namshik/VE/references/progressive-growing-torch/data/celebA/')
+  cmd:option('-nthreads', 8, '# of workers to use for data loading.')
 	cmd:option('-display', true, 'true : display server on / false : display server off')
 	cmd:option('-display_id', 10, 'display window id.')
 	cmd:option('-display_iter', 5, '# of iterations after which display is updated.')
