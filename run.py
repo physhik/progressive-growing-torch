@@ -15,6 +15,6 @@ print json.dumps(params, indent = 4)
 
 
 if params['multi'] :
-    os.system('CUDA_VISIBLE_DEVICES=1 th script/main.lua')
+    os.system('CUDA_VISIBLE_DEVICES=0 th script/main.lua')
 else:
     os.system('th script/main.lua')
